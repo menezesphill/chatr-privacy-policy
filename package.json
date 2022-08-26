@@ -1,0 +1,13 @@
+{
+  "name": "chatr-privacy-policy",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "serve": "static-server ./src --port 9011",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "parcel": "^2.7.0",
+    "static-server": "^2.2.1"
+  }
+}
